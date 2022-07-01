@@ -13,15 +13,50 @@ function App() {
   return (
     <div className="App">
     <h1>The Traveler's K9</h1>  
-    <div id='content'>
     <Navigation pages={pages} page={page} setPage={setPage} />
     {page==="About Me"? <AboutMe /> :null}
     {page==="Services"? <Services /> :null}
     {page==="Contact Me"? <ContactMe /> :null}
     {page==="Photos/Videos"? <Photos /> :null}
-    </div>
+    
+{/* <div class="snowflakes" aria-hidden="true">
+  <div class="snowflake">
+  🐾
+  </div>
+  <div class="snowflake">
+  🐾
+  </div>
+  <div class="snowflake">
+  🐾
+  </div>
+  <div class="snowflake">
+  🐕
+  </div>
+  <div class="snowflake">
+  🐕
+  </div>
+  <div class="snowflake">
+  🍂
+  </div>
+  <div class="snowflake">
+  🍃
+  </div>
+  <div class="snowflake">
+  🍂
+  </div>
+  <div class="snowflake">
+  🍂
+  </div>
+  <div class="snowflake">
+  🍃
+  </div>
+</div> */}
     </div>
   );
 }
 
 export default App;
+
+{/* <div class="snowflake">
+❄
+</div> */}

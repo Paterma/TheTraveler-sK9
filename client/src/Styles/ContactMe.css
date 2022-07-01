@@ -1,0 +1,10 @@
+#contactMe {
+    color: white !important;
+}
+
+li {
+    color: white !important;
+    text-align: center !important;
+    align-items: center !important;
+    list-style: none;
+}

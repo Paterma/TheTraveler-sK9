@@ -1,5 +1,6 @@
 .navbar{
     padding: 20px;
+    color: black;
     }
     
     button {
@@ -16,7 +17,7 @@
     
     .navbar-brand{
         font-family: 'Roboto', sans-serif;
-        color: white;  
+        color: black;  
     }
     
     li {
