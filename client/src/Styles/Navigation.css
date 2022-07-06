@@ -4,17 +4,23 @@
     }
     
     button {
-     border-radius: 50px;
-     background-color: transparent;
-     color: white;
-     width: 100px;
-     margin-left: 20px;
-     height: 50px;
-     margin-top: 5px;
-     font-family: 'Roboto', sans-serif;
-     font-size: small !important;
+    border-radius: 15px;
+    background-color: #E2FCEF;
+    color: black !important;
+    font-weight: bold;
+    width: 100px;
+    margin-left: 20px;
+    height: 50px;
+    width: 150px;
+    margin-top: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: small !important;
     } 
     
+#contactMe {
+    color: black !important;
+}
+
     .navbar-brand{
         font-family: 'Roboto', sans-serif;
         color: black;  
@@ -27,7 +33,7 @@
         align-items: center !important;
     }
     button:hover {
-        background-color: #101dce;
+        background-color: #DD614A;
     }
     Changing the link colors to stand out more
     nav a:active {

@@ -1,7 +1,55 @@
 #introParagraph {
+    margin-top: 30px;
     color: white;
+    text-align: center;
+    border: 5px solid #E2FCEF;
+    background-color: #7D8491;
+    margin-right: 150px;
+    margin-left: 150px;
+    color: white;
+    font-weight: normal;
+    font-size: larger;
+    padding: 15px;
+    margin-bottom: 25px;
 }
 
-.chloePic {
-    max-width: 400px !important;
+#chloeAndAirbus {
+display: block;
+margin-left: auto;
+margin-right: auto;
+max-height: 500px;
+border-radius: 25px;
+border: #E2FCEF solid 5px;
 }
+
+#testimonials {
+    margin-top: 150px;
+}
+
+#caption {
+    margin-top: 250px !important;
+  }
+  
+  .legend {
+    font-size: 14px !important;
+    background-color: #6B2737 !important;
+    border: none !important;
+
+  }
+  
+  #projPhoto {
+    size: 800px !important;
+}
+img {
+    box-shadow: rgba(#6B2737) 0px 22px 70px 4px;
+    max-height: 650px;
+    max-width: 650px !important;
+    
+}
+
+
+/* #092327 dark green
+#E2FCEF light green
+#7D8491 silver
+#6B2737 red 
+#DD614A orange  */

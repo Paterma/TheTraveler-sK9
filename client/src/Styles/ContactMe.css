@@ -7,4 +7,19 @@ li {
     text-align: center !important;
     align-items: center !important;
     list-style: none;
+    margin-right: 15px;
+}
+
+#contactOptions {
+    margin-top: 30px;
+background-color: #7D8491;
+text-align: center;
+border: 5px solid #E2FCEF;
+background-color: #7D8491;
+margin-right: 150px;
+margin-left: 150px;
+color: white;
+font-weight: normal;
+font-size: larger;
+padding: 15px;
 }
