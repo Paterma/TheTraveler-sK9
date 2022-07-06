@@ -17,7 +17,7 @@ return (
 <p id="introParagraph">Welcome to The Traveler's K9! My name is Chloe Pfahl and I have been a professional dog trainer for 6 years now. </p>
 <img src={Chloe} className="img-fluid" id="chloeAndAirbus" alt="Chloe and Airbus"/>
 <div id="testimonials">
-<Carousel autoPlay="true" infiniteLoop="true">
+<Carousel autoPlay="true" infiniteLoop="true" showIndicators="false" showArrows="false" transitionTime={8} centerMode="true">
         <div>
                     <img src={review1} />
                 </div>

@@ -15,14 +15,20 @@ function App() {
   return (
     
     <div className="App">
-    <div styles={{backgroundImage: `url(${Airbus})`}}> 
     <h1>The Traveler's K9 <img src={vanLife} className="img-fluid" id="vanLife" alt="Van Life"/></h1>  
     <Navigation pages={pages} page={page} setPage={setPage} />
     {page==="About Me"? <AboutMe /> :null}
     {page==="Services"? <Services /> :null}
     {page==="Contact Me"? <ContactMe /> :null}
     {page==="Photos/Videos"? <Photos /> :null}
+    <div id='theRest'></div>
     </div>
+  );
+}
+
+export default App;
+
+
 {/* <div class="snowflakes" aria-hidden="true">
   <div class="snowflake">
   🐾
@@ -55,12 +61,6 @@ function App() {
   🍃
   </div>
 </div> */}
-    </div>
-  );
-}
-
-export default App;
-
 {/* <div class="snowflake">
 ❄
 </div> */}
