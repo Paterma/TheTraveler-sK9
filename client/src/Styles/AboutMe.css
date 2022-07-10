@@ -47,7 +47,27 @@ img {
     
 }
 
+#comments {
+  border: #E2FCEF 5px solid;
+  width: 30px;
+  height: 600px;
+  margin: 55px;
+  color: white;
+  background-color: #7D8491;
+}
 
+#trainingPics {
+  width: 25px;
+  height: 600px;
+  margin: 55px;
+}
+
+#training {
+  height: 300px !important;
+  border-bottom-left-radius: 25px;
+  border-top-right-radius: 25px;
+   box-shadow: 5px 10px #6B2737 ;
+}
 /* #092327 dark green
 #E2FCEF light green
 #7D8491 silver

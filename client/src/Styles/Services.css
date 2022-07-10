@@ -16,3 +16,35 @@
     margin-right: 50px;
     color: black !important;
 }
+
+#trainingDesc {
+    color: white;
+    text-align: center;
+    border: 5px solid #E2FCEF ;
+    background-color: #7D8491;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#evalutions {
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+    font-size: larger;
+}
+
+span {
+    color: rgb(59, 172, 59);
+}
+
+#accordionExample {
+   
+}
+
+#red {
+    color: #b61339;
+}
+
+#soon {
+    color: rgb(111, 0, 255);
+}
