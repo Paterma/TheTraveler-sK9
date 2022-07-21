@@ -8,11 +8,11 @@ function Services() {
 
 
     return (
-      <div>
+      <div className="mx-auto">
         <h3 id="serviceHead">Services</h3>
             <p id="trainingDesc">Training is contigent upon your specific dog, and their particular needs. These packages are outlines to be customized during evaluation.</p>
             <p id="evalutions">Evaluations are $65 for 1 hour and required before package purchase or board-and-train.</p>
-      <Accordion
+      <Accordion 
         title="Puppy Package- For 6 month old dogs or YOUNGER"
         content="<p>Crate training, Potty Training, Puppy Nipping, Socialization, Name Recognition, Intro to Loose Leash Walking, Sit, Down, and Place</p>
         <strong> 5 lessons (in-home) <span>$500</span>, 7 lessons (in-home plus two public outings) <span>$700</span></strong>"
