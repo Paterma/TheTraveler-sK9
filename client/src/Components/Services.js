@@ -28,8 +28,8 @@ function Services() {
       <Accordion.Item eventKey="1">
         <Accordion.Header>Adult Dog Package- For dogs older than 6 months</Accordion.Header>
         <Accordion.Body>
-        <p>E-Collar conditioning for Off-Leash Reliability. Adding Distance, Duration, and Distraction to known behaviors such as Recalls, Stays, Heeling, and Place.</p>
-        <strong> 5 lessons (in-home lessons to condition E-collar) <span>$675</span>, 7 lessons (in-home plus two public outings to proof E-Collar) <span>$945</span></strong>
+        <p>Adding Distance, Duration, and Distraction to known behaviors such as Recalls, Stays, Heeling, and Place.</p>
+        <strong> 5 lessons <span>$625</span>, 7 lessons (in-home plus two public outings) <span>$875</span></strong>
         </Accordion.Body>
       </Accordion.Item>
 

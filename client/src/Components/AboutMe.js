@@ -26,7 +26,7 @@ return (
 						src={Chloe}
 						alt="Astro Odyssey"
 						id="chloeAndAirbus"
-					/><p id="photoDesc">(My best boy Erebus and I, on the Coloardo Trail)</p>
+					/><p id="photoDesc">(My best boy Erebus and I, completing our thru hike of the Coloardo Trail)</p>
 				</picture>
         
 		</div>
