@@ -17,7 +17,7 @@ return (
 	<section class="hero-section__section">
 		<div class="hero-section__text">
 				<p class="text-justify" id="introParagraph">
-        Welcome to my site! I'm Chloe, and I created The Traveler's K9 in 2022 after working professionally with dogs (and other animals) for 6 years. I'm a balanced dog trainer who focuses on all quadrants of operant conditioning. You may be wondering where "Traveler's" come's from- I run a mobile business that allows me to be in remote locations; having a broad array of clients. My passion's include dog sports, thru hikes, and of course traveling with my dog. My mission is to create a profound bond between human and dog, resulting in a well mannered environment.
+        Welcome to my site! I'm Chloe, and I created The Traveler's K9 in 2022 after working professionally with dogs (and other animals) for 6 years. I'm a balanced dog trainer who focuses on all quadrants of operant conditioning. You may be wondering where "Traveler's" come's from- I run a mobile business that allows me to be in remote locations; accommodating a broader array of clients. My passion's include dog sports, thru hikes, and of course traveling with my dog. My mission is to create a profound bond between human and dog, resulting in a well mannered environment.
 				</p>
         </div>
 		<div class="hero-section__image">
