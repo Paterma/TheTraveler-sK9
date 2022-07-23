@@ -8,6 +8,8 @@ import Navigation from './Components/Navigation';
 import Airbus from './Styles/airbus.png';
 import vanLife from './Styles/vanlifeGif.gif'
 
+import Footer from './/Components/Footer'
+
 function App() {
 
   const pages =["About Me", "Services", "Contact Me", "Photos/Videos"]
@@ -15,13 +17,15 @@ function App() {
   return (
     
     <div className="App">
-    <h1>The Traveler's K9 <img src={vanLife} className="img-fluid" id="vanLife" alt="Van Life"/></h1>  
+      
+    <h1 class="text-center">The Traveler's K9 <img src={vanLife} className="img-fluid" id="vanLife" alt="Van Life"/></h1>  
     <Navigation pages={pages} page={page} setPage={setPage} />
     {page==="About Me"? <AboutMe /> :null}
     {page==="Services"? <Services /> :null}
     {page==="Contact Me"? <ContactMe /> :null}
     {page==="Photos/Videos"? <Photos /> :null}
     <div id='theRest'></div>
+<Footer/>
     </div>
   );
 }

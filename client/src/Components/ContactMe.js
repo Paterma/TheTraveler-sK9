@@ -13,7 +13,7 @@ function ContactMe() {
 
     return (
     <div id="contactMe">
-       <Card className="text-center justify-conetent-center mx-auto" style={{ maxWidth: '25rem'}}>
+      <Card className="text-center justify-conetent-center mx-auto" style={{ maxWidth: '28rem', marginTop: '35px'}}>
       <Card.Img variant="top" src={strawberry} />
       <Card.Body>
         <Card.Title>Contact Me</Card.Title>

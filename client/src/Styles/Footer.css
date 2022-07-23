@@ -1,0 +1,25 @@
+footer{
+height: 150px;
+  background-color: #6B2737;
+  position: fixed;
+  /* display: flex; */
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+
+
+/* li:hover {
+  background-color: #DD614A;
+} */
+
+#smallLogo {
+max-block-size: 200px;
+}
+
+/* #092327 dark green
+#E2FCEF light green
+#7D8491 silver
+#6B2737 red 
+#DD614A orange  */
