@@ -37,7 +37,7 @@ return (
         <Card.Body>
           
           <Card.Text class="text-justify">
-            "Chloe has been training our German Shepherd on a weekly basis since he was 3y/o and is extremely well socialized and behaved due to her very professional method of training. We are confident in taking him everywhere and people are truly amazed at his demeanor and response to commands. We still love that she takes him for hikes with others dogs, on leash and off leash. We trust that he will be safe and respected while in her care. He loves being with her on outings to local trails, lakes, and streams. We highly recommend Chloe if you are looking for a well-behaved and well-trained dog!"
+            "Chloe has been training our German Shepherd on a weekly basis since he was 4 months old. He is 3 y/o now and is extremely well socialized and behaved due to her very professional method of training. We are confident in taking him everywhere and people are truly amazed at his demeanor and response to commands. We still love that she takes him for hikes with others dogs, on leash and off leash. We trust that he will be safe and respected while in her care. He loves being with her on outings to local trails, lakes, and streams. We highly recommend Chloe if you are looking for a well-behaved and well-trained dog!"
           </Card.Text>
           <Card.Title>-Bruce and Mary Conklin</Card.Title>
           <br></br>

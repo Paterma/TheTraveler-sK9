@@ -4,7 +4,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { Carousel } from 'react-responsive-carousel';
 import photo1 from '../Styles/photo1.PNG'
 import photo2 from '../Styles/photo2.PNG'
-import photo3 from '../Styles/photo3.PNG'
+import photo3 from '../Styles/photo4.jpg'
 
 
 function Photos() {
