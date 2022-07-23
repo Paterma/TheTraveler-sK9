@@ -121,3 +121,9 @@ h2 {
 			grid-template-columns: 1fr;
 		}
 	}
+
+  #photoDesc {
+    color: white;
+    text-align: center;
+    margin-bottom: 80px;
+  }

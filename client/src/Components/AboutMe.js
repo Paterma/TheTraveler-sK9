@@ -26,8 +26,9 @@ return (
 						src={Chloe}
 						alt="Astro Odyssey"
 						id="chloeAndAirbus"
-					/>
+					/><p id="photoDesc">(My best boy Erebus and I, on the Coloardo Trail)</p>
 				</picture>
+        
 		</div>
 	</section>
 <h2 id="reviewsSection">Reviews</h2>
@@ -41,7 +42,7 @@ return (
           <Card.Title>-Bruce and Mary Conklin</Card.Title>
           <br></br>
           <Card.Text class="text-justify">
-            "I was so excited to learn Chloe was starting her own training business. She is truly the best and I cannot recommend her enough!!! She has a way with dogs like I've never seen and we affectionately call her the dog whisperer in our house. She's trained our German Shpherd since she came home from the breeder and has helped to mold the best fur family member I could ever ask for! Our little yorkie loves her too! Our pups love and respect Chloe beyond words. She's the best person to help you become the leadrer of your pack and have a social and well mannered fur friend. I don't know where we'd be without Chloe but I am so blessed we found her and I give my ffill trust in her and cannot recommend her enough!"
+            "I was so excited to learn Chloe was starting her own training business. She is truly the best and I cannot recommend her enough!!! She has a way with dogs like I've never seen and we affectionately call her the dog whisperer in our house. She's trained our German Shepherd since she came home from the breeder and has helped to mold the best fur family member I could ever ask for! Our little yorkie loves her too! Our pups love and respect Chloe beyond words. She's the best person to help you become the leader of your pack and have a social and well mannered fur friend. I don't know where we'd be without Chloe but I am so blessed we found her and I give my full trust in her and cannot recommend her enough!"
           </Card.Text>
           <Card.Title>-Debbie Gertie</Card.Title>
         </Card.Body>

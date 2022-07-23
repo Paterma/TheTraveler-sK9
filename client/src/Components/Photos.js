@@ -11,7 +11,8 @@ function Photos() {
 
     return (
         <div>
-            <h2 id="photosHead">Follow me on Social Media for the most up-to-date photos/videos.</h2>
+            <h2 id="photosHead">Follow me on Social Media for the most up-to-date photos and videos.</h2>
+            <p id="clientPhoto">A priority of mine is to keep my clients updated with progress photos and videos of their pup- so you can always be in-the-know of how your dog is advancing. <br></br> (More photos/videos to come!) </p>
         <Carousel autoPlay="true" infiniteLoop="true">
         <div>
                     <img src={photo1} />

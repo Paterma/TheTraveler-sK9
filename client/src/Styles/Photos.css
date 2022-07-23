@@ -19,5 +19,11 @@ img {
 
 #photosHead {
   margin-top: 55px;
-  margin-bottom: 25px;
+  
+}
+
+#clientPhoto {
+  color: white;
+  text-align: center;
+  margin-bottom: 75px;
 }
