@@ -1,8 +1,8 @@
 #introParagraph {
-    margin-top: 30px;
+    margin-top: 55px;
     color: white;
     text-align: center;
-    border: 3px solid #7D8491;
+    border: 3px solid white;
     background-color: #E2FCEF;
     border-radius: 10px;
     margin-right: 20px;
@@ -10,11 +10,14 @@
     color: black;
     font-weight: normal;
     font-size: larger;
-    padding: 25px;
+    padding: 35px;
     margin-bottom: 25px;
+    box-shadow: rgb(100, 37, 37) 0px 20px 30px -10px;
 }
 
-
+#aboutmeHead {
+  margin-top: 55px;
+}
 
 #chloeAndAirbus {
 display: block;
@@ -23,6 +26,7 @@ margin-right: auto;
 max-height: 500px;
 border-radius: 25px;
 border: #E2FCEF solid 4px;
+margin-top: 55px;
 }
 
 #testimonials {
@@ -50,19 +54,23 @@ img {
     
 }
 
-#comments {
-  border: #E2FCEF 5px solid;
-  width: 30px;
-  height: 600px;
-  margin: 55px;
-  color: white;
-  background-color: #7D8491;
-}
 
 #trainingPics {
   width: 25px;
   height: 600px;
   margin: 55px;
+}
+
+#reviewsSection {
+ margin-top: 80px !important; 
+}
+
+h2 {
+  font-family: 'Special Elite', cursive;
+  color: white;
+  font-size: xx-large;
+  
+  text-align: center;
 }
 
 #training {

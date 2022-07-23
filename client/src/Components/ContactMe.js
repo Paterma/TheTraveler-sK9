@@ -13,6 +13,7 @@ function ContactMe() {
 
     return (
     <div id="contactMe">
+      <h2 id="contactHeader">Anything is paw-sible, trust me. I'm a dog-tor.</h2>
       <Card className="text-center justify-conetent-center mx-auto" style={{ maxWidth: '28rem', marginTop: '35px'}}>
       <Card.Img variant="top" src={strawberry} />
       <Card.Body>
@@ -21,7 +22,7 @@ function ContactMe() {
         Please reach out to book lessons, board and train, or ask any questions via call, text, or email. Follow me for daily stories on Instagram and Facebook!
 
         <ListGroup className="list-group-center">
-        <ListGroup.Item><a class="nav-link" href="tel:2065828980"><AiOutlinePhone size={30}/> (206)582-8980</a></ListGroup.Item>
+        <ListGroup.Item><a class="nav-link" href="tel:2065828980"><AiOutlinePhone size={30}/> (206) 582-8980</a></ListGroup.Item>
 
         <ListGroup.Item>
         <a class="nav-link" href="mailto:crimsonpfahl@gmail.com"><AiOutlineMail size={30}/></a></ListGroup.Item>

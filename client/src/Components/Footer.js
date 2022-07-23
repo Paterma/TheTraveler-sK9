@@ -1,34 +1,59 @@
 import React from "react";
 import '../Styles/Footer.css'
-import logo from '../Styles/clipart.png'
+import logo from '../Styles/clipartResized.png'
 import { AiOutlineMail } from 'react-icons/ai';
 import { AiOutlinePhone } from 'react-icons/ai'
 import { BsFacebook } from 'react-icons/bs'
 import { BsInstagram } from 'react-icons/bs'
+import Nav from 'react-bootstrap/Nav';
+
+{/* <li class="nav-item">
+ <img  src={logo} id="smallLogo" style={{ height: '25rem', padding: 'none' }} />
+ </li> */}
+
 
 function Footer () {
 return (
-<footer>
-<ul class="nav nav-pills flex-column flex-sm-row mx-auto">
-
-<li class="nav-item">
- <img className="img-fluid" src={logo} id="smallLogo" style={{ height: '25rem' }} />
- </li>
-
-  <li class="nav-item">
-    <a class="nav-link" href="tel:2065828980"><AiOutlinePhone size={30} color={'black'}/></a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="mailto:crimsonpfahl@gmail.com"><AiOutlineMail size={30} color={'black'}/></a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="https://www.facebook.com/chloe.pfahl.7" target="_blank"> <BsFacebook size={30} color={'black'}/></a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="https://www.instagram.com/thetravelersk9/" target="_blank"><BsInstagram size={30} color={'black'}/></a>
-  </li>
-</ul>
-		</footer> 
+  <footer>
+  <img className="mx-auto d-block" src={logo} id="smallLogo" style={{ marginTop:'80px' }} />
+  <Nav className="justify-content-center" activeKey="/home">
+  <Nav.Item>
+    <Nav.Link href="tel:2065828980"><AiOutlinePhone size={35} color={'black'} style={{ padding: 'none', marginBottom: '10px', marginRight: '25px' }} /></Nav.Link>
+  </Nav.Item>
+  <Nav.Item>
+    <Nav.Link href="mailto:crimsonpfahl@gmail.com"><AiOutlineMail size={35} color={'black'} style={{ padding: 'none', marginBottom: '10px', marginRight: '25px' }}/></Nav.Link>
+  </Nav.Item>
+  <Nav.Item>
+    <Nav.Link href="https://www.facebook.com/chloe.pfahl.7" target="_blank"> <BsFacebook size={35} color={'black'} style={{ padding: 'none', marginBottom: '10px', marginRight: '25px' }}/></Nav.Link>
+  </Nav.Item>
+  <Nav.Item>
+    <Nav.Link href="https://www.instagram.com/thetravelersk9/" target="_blank"><BsInstagram size={35} color={'black'} style={{ padding: 'none', marginBottom: '10px', marginRight: '25px' }}/></Nav.Link>
+  </Nav.Item>
+</Nav>
+</footer>
 );
 };
 export default Footer;
+
+
+{/* <footer>
+<ul class="justify-content-center">
+
+<li class="nav-item">
+ <img  src={logo} id="smallLogo" style={{ height: '25rem', padding: 'none' }} />
+ </li>
+
+  <li class="nav-item mx-auto" style={{ marginTop: '70px' }}>
+    <a class="nav-link" href="tel:2065828980"><AiOutlinePhone size={35} color={'black'}/></a>
+  </li>
+  <li class="nav-item mx-auto" style={{ marginTop: '70px' }}>
+    <a class="nav-link" href="mailto:crimsonpfahl@gmail.com"><AiOutlineMail size={35} color={'black'}/></a>
+  </li>
+  <li class="nav-item mx-auto" style={{ marginTop: '70px' }}>
+    <a class="nav-link" href="https://www.facebook.com/chloe.pfahl.7" target="_blank"> <BsFacebook size={35} color={'black'}/></a>
+  </li>
+  <li class="nav-item mx-auto" style={{ marginTop: '70px' }}>
+    <a class="nav-link" href="https://www.instagram.com/thetravelersk9/" target="_blank"><BsInstagram size={35} color={'black'}/></a>
+  </li>
+</ul>
+		</footer>  */}

@@ -3,9 +3,6 @@ import '../Styles/AboutMe.css';
 import Chloe from '../Styles/chloepic.jpg';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { Carousel } from 'react-responsive-carousel';
-import review1 from '../Styles/review1.png'
-import review2 from '../Styles/review2.png'
-import review3 from '../Styles/review3.png'
 import Airbus from '../Styles/photo2.PNG'
 import Card from 'react-bootstrap/Card';
 
@@ -18,11 +15,11 @@ return (
     <div class="container">
     
 <div class="row align-items-start">
-  
+  <h2 id="aboutmeHead">We are emBARKing on a journey...</h2>
 	<section class="hero-section__section">
 		<div class="hero-section__text">
 				<p class="text-justify" id="introParagraph">
-        Welcome to my site, I'm Chloe, and I created The Traveler's K9 in 2022 after working professionally with dogs (and other animals) for 6 years. I'm a balanced dog trainer who focuses on all quadrants of operant conditioning. You may be wondering where "Traveler's" come's from- I run a mobile business that allows me to be in remote locations; having a broad array of clients. My passion's include dog sports, thru hikes, and of course traveling with my dog. My mission it to create a profound bond between human and dog, resulting in a well mannered environment.
+        Welcome to my site! I'm Chloe, and I created The Traveler's K9 in 2022 after working professionally with dogs (and other animals) for 6 years. I'm a balanced dog trainer who focuses on all quadrants of operant conditioning. You may be wondering where "Traveler's" come's from- I run a mobile business that allows me to be in remote locations; having a broad array of clients. My passion's include dog sports, thru hikes, and of course traveling with my dog. My mission is to create a profound bond between human and dog, resulting in a well mannered environment.
 				</p>
         </div>
 		<div class="hero-section__image">
@@ -35,9 +32,9 @@ return (
 				</picture>
 		</div>
 	</section>
-
+<h2 id="reviewsSection">Reviews</h2>
 <Card border="dark" className="mx-auto" style={{ width: '75rem', float:'left', marginTop:'40px' }}>
-        <Card.Header>Reviews</Card.Header>
+        {/* <Card.Header>Reviews</Card.Header> */}
         <Card.Body>
           
           <Card.Text class="text-justify">

@@ -1,8 +1,8 @@
 import React from "react";
 import '../Styles/Services.css'
 import "bootstrap/dist/css/bootstrap.min.css";
-// import Accordion from "./Accordian.js";
 import Accordion from 'react-bootstrap/Accordion';
+import logoFull from '../Styles/ClipArtfullsizeResized.png'
 
 
 function Services() {
@@ -10,10 +10,12 @@ function Services() {
 
     return (
       <div className="mx-auto">
-      <h2 id="serviceHead">Services</h2>
-              <p id="trainingDesc">Training is contigent upon your specific dog, and their particular needs. These packages are outlines to be customized during evaluation.</p>
+      <h2 id="serviceHead">
+      Services</h2> 
+
+              <p id="trainingDesc">Training is contigent upon your specific dog, and their particular needs. These packages are outlines to be customized during evaluation.  </p>
               <p id="evalutions">Evaluations are $65 for 1 hour and required before package purchase or board-and-train.</p>
-<Accordion>
+<Accordion> <img className="img-fluid mx-auto d-block" id="fullLogo" src={logoFull} alt="The Traveler's K0 Logo" />
       <Accordion.Item eventKey="0">
         <Accordion.Header>Puppy Package- For 6 month old dogs or YOUNGER</Accordion.Header>
         <Accordion.Body>
@@ -83,7 +85,7 @@ function Services() {
       </Accordion.Item>
 
     </Accordion>
-
+<h2 id="serviceHead">See you on the bark side!</h2>
 </div>         
     )
     }

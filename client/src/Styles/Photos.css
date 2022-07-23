@@ -16,3 +16,7 @@ img {
     max-height: 650px;
     max-width: 650px !important;
 }
+
+#photosHead {
+  margin-top: 55px;
+}

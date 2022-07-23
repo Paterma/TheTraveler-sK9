@@ -10,10 +10,12 @@ import photo3 from '../Styles/photo3.PNG'
 function Photos() {
 
     return (
+        <div>
+            <h2 id="photosHead">Follow me on Social Media for the most up-to-date photos/videos.</h2>
         <Carousel autoPlay="true" infiniteLoop="true">
         <div>
                     <img src={photo1} />
-                    <p className="legend">Airbus</p>
+                    <p className="legend">My main squeeze, Erebus</p>
                 </div>
                 <div>
                     <img src={photo2} />
@@ -24,6 +26,7 @@ function Photos() {
                     <p className="legend">Do you even climb?</p>
                 </div>
     </Carousel>
+    </div>
     )
     }
     

@@ -17,3 +17,7 @@ Card {
 margin-right: auto !important;
 display: flex !important;
 }
+
+#contactHeader {
+    margin-top: 55px;
+}

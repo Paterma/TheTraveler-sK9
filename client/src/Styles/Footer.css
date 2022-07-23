@@ -1,21 +1,19 @@
 footer{
-height: 150px;
+height: auto;
   background-color: #6B2737;
-  position: fixed;
-  /* display: flex; */
   bottom: 0;
   left: 0;
+  right: 0;
   width: 100%;
+  margin-top: 200px;
 }
 
 
 
-/* li:hover {
-  background-color: #DD614A;
-} */
-
 #smallLogo {
-max-block-size: 200px;
+max-block-size: 120px;
+padding-top: 20px !important;
+margin-bottom: 20px;
 }
 
 /* #092327 dark green
