@@ -7,11 +7,6 @@ import { BsFacebook } from 'react-icons/bs'
 import { BsInstagram } from 'react-icons/bs'
 import Nav from 'react-bootstrap/Nav';
 
-{/* <li class="nav-item">
- <img  src={logo} id="smallLogo" style={{ height: '25rem', padding: 'none' }} />
- </li> */}
-
-
 function Footer () {
 return (
   <footer>
@@ -34,26 +29,3 @@ return (
 );
 };
 export default Footer;
-
-
-{/* <footer>
-<ul class="justify-content-center">
-
-<li class="nav-item">
- <img  src={logo} id="smallLogo" style={{ height: '25rem', padding: 'none' }} />
- </li>
-
-  <li class="nav-item mx-auto" style={{ marginTop: '70px' }}>
-    <a class="nav-link" href="tel:2065828980"><AiOutlinePhone size={35} color={'black'}/></a>
-  </li>
-  <li class="nav-item mx-auto" style={{ marginTop: '70px' }}>
-    <a class="nav-link" href="mailto:crimsonpfahl@gmail.com"><AiOutlineMail size={35} color={'black'}/></a>
-  </li>
-  <li class="nav-item mx-auto" style={{ marginTop: '70px' }}>
-    <a class="nav-link" href="https://www.facebook.com/chloe.pfahl.7" target="_blank"> <BsFacebook size={35} color={'black'}/></a>
-  </li>
-  <li class="nav-item mx-auto" style={{ marginTop: '70px' }}>
-    <a class="nav-link" href="https://www.instagram.com/thetravelersk9/" target="_blank"><BsInstagram size={35} color={'black'}/></a>
-  </li>
-</ul>
-		</footer>  */}

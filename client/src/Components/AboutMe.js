@@ -2,8 +2,6 @@ import React from "react";
 import '../Styles/AboutMe.css';
 import Chloe from '../Styles/chloepic.jpg';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import { Carousel } from 'react-responsive-carousel';
-import Airbus from '../Styles/photo2.PNG'
 import Card from 'react-bootstrap/Card';
 
 

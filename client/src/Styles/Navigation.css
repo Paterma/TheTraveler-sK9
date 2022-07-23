@@ -35,16 +35,3 @@
     button:hover {
         background-color: #DD614A;
     }
-    Changing the link colors to stand out more
-    nav a:active {
-        color: rgb(226, 5, 5);
-    }
-    /* Change the link colors once visited */
-    button:visited {
-        color: rgb(180, 166, 202) !important;
-    }
-    
-    
-    #profile:hover {
-      transform: none;
-    }
