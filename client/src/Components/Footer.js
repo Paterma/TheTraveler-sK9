@@ -16,10 +16,10 @@ return (
     <Nav.Link href="tel:2065828980"><AiOutlinePhone size={35} color={'black'} style={{ padding: 'none', marginBottom: '10px', marginRight: '25px' }} /></Nav.Link>
   </Nav.Item>
   <Nav.Item>
-    <Nav.Link href="mailto:crimsonpfahl@gmail.com"><AiOutlineMail size={35} color={'black'} style={{ padding: 'none', marginBottom: '10px', marginRight: '25px' }}/></Nav.Link>
+    <Nav.Link href="mailto:TheTravelersK9@gmail.com"><AiOutlineMail size={35} color={'black'} style={{ padding: 'none', marginBottom: '10px', marginRight: '25px' }}/></Nav.Link>
   </Nav.Item>
   <Nav.Item>
-    <Nav.Link href="https://www.facebook.com/chloe.pfahl.7" target="_blank"> <BsFacebook size={35} color={'black'} style={{ padding: 'none', marginBottom: '10px', marginRight: '25px' }}/></Nav.Link>
+    <Nav.Link href="https://www.facebook.com/The-Travelers-K9-LLC-104349405700227/" target="_blank"> <BsFacebook size={35} color={'black'} style={{ padding: 'none', marginBottom: '10px', marginRight: '25px' }}/></Nav.Link>
   </Nav.Item>
   <Nav.Item>
     <Nav.Link href="https://www.instagram.com/thetravelersk9/" target="_blank"><BsInstagram size={35} color={'black'} style={{ padding: 'none', marginBottom: '10px', marginRight: '25px' }}/></Nav.Link>
